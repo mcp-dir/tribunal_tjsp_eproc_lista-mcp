@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/tribunal_tjsp_eproc_lista-mcp",
+  "title": "Tribunal TJSP: Lista de Processos (eproc)",
+  "description": "Tribunal TJSP: Lista de Court Cases (eproc), official-source lookup. Platform-hosted, pay per query ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/tribunal_tjsp_eproc_lista-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_tribunal_tjsp_eproc_lista"
+    }
+  ]
+}
